@@ -1,0 +1,176 @@
+body{
+	margin:0;
+	font-family:'Roboto Condensed', sans-serif;
+	padding: 0;
+}
+
+.contenedor {
+	width: 1200px;
+	margin: auto;
+}
+
+.background {
+	background-image: url("../img/bg3.jpg");
+	background-size: cover;
+}
+
+.header {
+	position: relative;
+}
+
+.portada {
+	color: white;
+	padding: 20px;
+	height: 550px;
+	position: relative;	
+}
+
+.logo{
+	margin: 0;
+	display: inline-block;
+}
+
+.opaco {
+	width: 456px;
+	height: 160px;
+	background-color: rgba(236, 234, 234, 0.8);
+	padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 60px;
+    left: 40px;
+}
+
+.titulo {
+	font-size: 50px;
+	text-align: center;
+	margin: 0;
+	color: #6a6a6a;
+	letter-spacing: 2.5px;
+}
+
+.title-a {
+	font-size: 20px;
+	text-align: center;
+    letter-spacing: 3px;
+    margin-top: 8px;	
+    color: #6a6a6a;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.autor{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	border-top: 1px solid #6a6a6a;
+}
+
+.autor img {
+	margin-top: 10px;
+}
+
+.autor span {
+	margin-left: 15px;
+	font-size: 24px;
+	margin-top: 10px;
+	color: #6a6a6a;
+}
+.menu{
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	font-size: 20px;
+}
+
+.menu a{
+	color: white;
+	text-decoration: none;
+}
+
+.menu ul{
+	margin-top: 15px;
+}
+.menu li {
+	display: inline-block;
+	margin-left: 20px;
+}
+.menu li:after{
+  content: "|"; 
+  margin-left: 10px;
+}
+
+.button {
+	border-radius: 1px;
+	color: white;
+	background-color: #FF1D25;
+	border:none;
+	padding: 7px 12px;
+	margin-left: 20px;
+	font-size: 17px;
+}
+
+.buscar {
+	margin-left: 20px;
+	padding: 5px 15px;
+}
+
+#buscar {
+	font-size: 19px;
+	padding-top: 0;
+}
+
+.row {
+	display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.articulo{
+	font-family: 'Ubuntu', sans-serif;
+    color: #6a6a6a;
+    text-decoration: none;
+    width: 380px;
+}
+
+.paginas {
+	display: flex;
+	justify-content: center;
+}
+
+.paginas .numeracion{
+	margin-top: 13px;
+	margin-left: 10px;
+}
+
+.footer{
+	padding: 20px;
+    background-color: #441111;
+}
+
+.contacto {
+	display: flex;
+	justify-content: space-around;
+    align-items: center;
+}
+
+.col {
+	display: flex;
+    flex-direction: column;
+    background-size: cover;
+}
+
+.col2 {
+	display: flex;
+    flex-direction: row;
+    background-size: cover;
+}
+
+.contacto a{
+	text-decoration: none;
+	color: white;
+}
+
+.fa{
+	color: white;
+	margin-right: 15px;
+}
